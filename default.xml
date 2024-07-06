@@ -1421,6 +1421,6 @@
   </project>
   <project path="vendor/adevtool" name="adevtool" remote="grapheneos" />
   <project path="vendor/j" name="jOS_vendor_j" remote="jos" />
-  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="yaap-gitlab" revision="fourteen" clone-depth="1" />
+  <project path="vendor/yaap/vendor/google/pixel" name="vendor_google_pixel" remote="yaap-gitlab" revision="fourteen" clone-depth="1" />
   <project path="vendor/state" name="vendor_state" remote="grapheneos" clone-depth="1" />
 </manifest>
