@@ -4,6 +4,9 @@
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS/"
            revision="refs/heads/15" />
+  <remote  name="jos"
+           fetch="https://github.com/dot166/"
+           revision="refs/heads/jOS-15.1" />
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/grapheneos/"
            revision="refs/heads/15" />
@@ -1094,6 +1097,7 @@
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
+  <project path="j-sdk" name="jOS_j-lib" revision="main" remote="jos" />
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="grapheneos" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/prebuilts/5.4/arm64" name="kernel/prebuilts/5.4/arm64" groups="pdk" clone-depth="1" />
@@ -1167,6 +1171,7 @@
   <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" groups="pdk-fs" remote="grapheneos" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" />
+  <project path="packages/apps/jOS" name="jOS-System" revision="main" remote="jos" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="grapheneos" />
   <project path="packages/apps/LogViewer" name="platform_packages_apps_LogViewer" groups="pdk-fs" remote="grapheneos" />
@@ -1471,6 +1476,7 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
   <project path="vendor/adevtool" name="adevtool" remote="grapheneos" />
+  <project path="vendor/j" name="jOS_vendor_j" remote="jos" />
   <project path="vendor/state" name="vendor_state" remote="grapheneos" clone-depth="1" />
   <!-- END open-source projects -->
 
