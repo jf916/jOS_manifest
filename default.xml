@@ -3,13 +3,13 @@
 
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS/"
-           revision="refs/heads/15" />
+           revision="refs/tags/2025010700" />
   <remote  name="jos"
            fetch="https://github.com/dot166/"
            revision="refs/heads/jOS-15.1" />
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/grapheneos/"
-           revision="refs/heads/15" />
+           revision="refs/tags/2025010700" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
