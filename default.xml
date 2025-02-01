@@ -6,7 +6,7 @@
            revision="refs/tags/2025012700" />
   <remote  name="jos"
            fetch="https://github.com/dot166/"
-           revision="refs/heads/jOS-15.1" />
+           revision="refs/tags/20250201j" />
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/grapheneos/"
            revision="refs/tags/2025012700" />
